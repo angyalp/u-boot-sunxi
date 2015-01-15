@@ -116,7 +116,8 @@
 #define CONFIG_SYS_HZ			1000
 
 /* baudrate */
-#define CONFIG_BAUDRATE			115200
+/* #define CONFIG_BAUDRATE			115200 */
+#define CONFIG_BAUDRATE			4800
 
 /* The stack sizes are set up in start.S using the settings below */
 #define CONFIG_STACKSIZE		(256 << 10)	/* 256 KiB */
